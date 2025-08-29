@@ -1,0 +1,10 @@
+services:
+  site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docs-site:latest
+    container_name: docs-site
+    ports:
+      - "8080:80"
+    restart: unless-stopped
