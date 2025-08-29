@@ -3,14 +3,13 @@ import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  lang: 'en-US',
+  lang: 'pt-BR',
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: 'Setup',
+  description: 'Projetos para automatização da configuração do setup',
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-
     navbar: ['/', '/get-started'],
   }),
 
