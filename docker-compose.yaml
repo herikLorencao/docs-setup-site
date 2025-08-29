@@ -6,5 +6,5 @@ services:
     image: docs-site:latest
     container_name: docs-site
     ports:
-      - "8080:80"
+      - "7070:80"
     restart: unless-stopped
